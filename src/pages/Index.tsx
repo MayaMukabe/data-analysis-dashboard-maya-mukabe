@@ -38,7 +38,7 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-100">
-      {/* 🎨 Hero Section - The top part of your homepage */}
+      {/* 🎨 Hero Section - The topp art of your homepage */}
       <div className="container mx-auto px-4 py-8">
         <div className="text-center mb-12">
           {/* 🎯 Logo and Title */}
@@ -50,11 +50,14 @@ const Index = () => {
           
           {/* 📝 WEEK 1: Students customize this title with their name */}
           <h1 className="text-5xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent mb-4">
-            Plug-N-Learn
+            Maya's Data Hub
           </h1>
           <p className="text-xl text-slate-600 mb-2">Data Insight Engine</p>
           <p className="text-lg text-slate-500 max-w-2xl mx-auto">
             Upload your dataset and instantly discover insights, visualize trends, and explore your data with interactive charts and analytics.
+          </p>
+          <p className="text-lg text-slate-500 max-w-2xl mx-auto">
+            Built by Maya Mukabe - Future Data Scientist
           </p>
         </div>
 
@@ -131,7 +134,11 @@ const Index = () => {
           </>
         )}
       </div>
+      <footer>
+  <p className= "text-lg text-slate-500 max-w-2xl mx-auto">@ 2025 Maya's Data Hub. All rights reserved.</p>
+</footer>
     </div>
+    
   );
 };
 
